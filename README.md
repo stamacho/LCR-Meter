@@ -12,7 +12,7 @@ This is a PC-based LCR Meter implemented in Python that utilizes a computer's au
 ---
 ## How It Works
 
-The application functions as a basic function generator and oscilloscope. It generates a sine wave through the audio output and measures the resulting voltage at the audio input. All measurements are based on a **voltage divider circuit** composed of a known reference resistor ($R_{known}$) and the unknown component. [cite: 130, 138]
+The application functions as a basic function generator and oscilloscope. It generates a sine wave through the audio output and measures the resulting voltage at the audio input. All measurements are based on a **voltage divider circuit** composed of a known reference resistor ($R_{known}$) and the unknown component.
 
 The measurement is a guided, two-step process:
 1.  **Measure Input Voltage ($V_{in}$)**: The user first connects the probes to the source to establish a reference voltage and phase.
